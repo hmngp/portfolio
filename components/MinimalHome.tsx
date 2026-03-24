@@ -49,14 +49,16 @@ export function MinimalHome() {
       <div className="relative z-10 mx-auto max-w-3xl px-5 py-10 md:px-8 md:py-14">
         <header>
           <div className="flex w-full min-w-0 flex-wrap items-center justify-between gap-4 sm:gap-6">
-            <img
-              src="/Logo.svg"
-              alt=""
-              width={112}
-              height={112}
-              className="block h-24 w-24 shrink-0 md:h-28 md:w-28"
-              decoding="async"
-            />
+            <a href="/">
+              <img
+                src="/Logo.svg"
+                alt=""
+                width={112}
+                height={112}
+                className="block h-24 w-24 shrink-0 md:h-28 md:w-28"
+                decoding="async"
+              />
+            </a>
             <p className="shrink-0 font-mono text-[13px] leading-none text-surface md:text-sm">
               <Clock />
             </p>

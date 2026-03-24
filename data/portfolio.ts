@@ -15,7 +15,7 @@ export const sideProjects: PortfolioRow[] = [
     year: "2026",
     title: "itihaas: interactive historical map dashboard (in progress)",
   },
-  { year: "2025", title: "gausasian.club: a face guessing game" },
+  { year: "2025", title: "gausasian.club: a face guessing game", href: "https://www.gausasian.club" },
 ];
 
 /**
