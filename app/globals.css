@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0c1d13;
+  --text: #ffffff;
+  --text-muted: #a8b8a0;
+  --accent: #4aff7a;
+  --card-bg: #f5f0e8;
+  --card-text: #0c1d13;
+  --border: rgba(255, 255, 255, 0.12);
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-surface antialiased;
+}
+
+/* Cutting-mat grid — same as before, over dark green */
+.mat-grid {
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    );
+  background-size: 48px 48px;
+  opacity: 0.9;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
