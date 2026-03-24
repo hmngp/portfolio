@@ -10,7 +10,7 @@ export const internships: PortfolioRow[] = [
 ];
 
 export const sideProjects: PortfolioRow[] = [
-  { year: "2026", title: "my IMDB ratings visualization" },
+  { year: "2026", title: "my IMDB movie ratings visualized in an interactive dashboard", href: "https://imdb-dashboard-pi.vercel.app/" },
   {
     year: "2026",
     title: "itihaas: interactive historical map dashboard (in progress)",
