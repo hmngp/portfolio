@@ -13,7 +13,7 @@ export const sideProjects: PortfolioRow[] = [
   { year: "2026", title: "my IMDB movie ratings visualized in an interactive dashboard", href: "https://imdb-dashboard-pi.vercel.app/" },
   {
     year: "2026",
-    title: "itihaas: interactive historical map dashboard (in progress)",
+    title: "itihaas: interactive historical map dashboard (in progress)", href: "https://india-through-time.vercel.app/",
   },
   { year: "2025", title: "gausasian.club: a face guessing game", href: "https://www.gausasian.club" },
 ];
